@@ -14,13 +14,6 @@
         }
     }
 
-    container {
-    }
-
-    &__logo {
-        
-    }
-
     &__main {
         margin-top: 5.5rem;
         display: grid;
@@ -43,12 +36,12 @@
         }
     }
 
-    &__about {
-
-    }
-
+    &__about,
     &__contact {
 
+        a:last-child {
+            margin-bottom: 0;
+        }
     }
 
     &__social {
